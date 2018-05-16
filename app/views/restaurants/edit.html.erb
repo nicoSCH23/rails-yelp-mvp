@@ -1,1 +1,16 @@
-<p>edit</p>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-8 offset-md-2">
+      <h1> Edit Restaurant </h1>
+      <hr>
+      <%= simple_form_for(@restaurant) do |f| %>
+        <%= f.input :name %>
+        <%= f.input :address %>
+        <%= f.input :phone_number %>
+        <%= f.input :category %>
+        <%= f.submit "Edit restaurant", class: "btn btn-primary" %>
+      <% end %>
+    </div>
+  </div>
+</div>
+

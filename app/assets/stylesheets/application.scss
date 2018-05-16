@@ -18,7 +18,7 @@
   margin-top: 10px;
 }
 .desc {
-  background-color: #F6F8F6;
+  background-color: #B9C0DA;
   padding: 15px;
   border-radius: 5px;
 }
@@ -29,10 +29,27 @@
 }
 
 .btn-edit {
-  height: 30px;
+  height: 40px;
   margin: 30px
+}
+
+.back-to {
+  float: none;
+  margin: 0 auto;
+}
+
+.editor .picture {
+  height: 200px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .edit-list li {
   padding: 5px;
 }
+
+.main-list {
+  margin: 0 auto;
+}
+
+
