@@ -1,0 +1,38 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "layouts/index";
+@import "components/index";
+@import "pages/index";
+
+.container{
+  margin-top: 10px;
+}
+.desc {
+  background-color: #F6F8F6;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.editor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-edit {
+  height: 30px;
+  margin: 30px
+}
+
+.edit-list li {
+  padding: 5px;
+}
